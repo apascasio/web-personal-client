@@ -2,7 +2,7 @@ import LayoutAdmin from '../layouts/LayoutAdmin';
 import LayoutBasic from '../layouts/LayoutBasic';
 
 import AdminHome from '../pages/Admin';
-import AdminSigIn from '../pages/Admin/Signin';
+import AdminSigIn from '../pages/Admin/SignIn/Signin';
 
 import Home from '../pages/Home';
 import Contact from '../pages/Contact';
