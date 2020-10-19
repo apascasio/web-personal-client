@@ -4,10 +4,12 @@ import { Layout, Tabs } from 'antd';
 import Logo from '../../../assets/img/png/logo-white.png';
 import RegisterForm from '../../../components/Admin/RegisterForm';
 import LoginForm from '../../../components/Admin/LoginForm/';
+// eslint-disable-next-line
 import { getAccessTokenApi } from '../../../api/auth';
 
 
 import './SignIn.scss';
+// eslint-disable-next-line
 import { Redirect } from 'react-router-dom';
 
 

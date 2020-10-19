@@ -91,6 +91,7 @@ const register = async (e) => {
 };
 
 const resetForm = () => {
+    // eslint-disable-next-line
     const input = document.getElementsByTagName('input');
     for(let i = 0; i < inputs.length; i++) {
         inputs[i].classList.remove("success");

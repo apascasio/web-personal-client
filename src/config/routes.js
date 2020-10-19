@@ -3,6 +3,7 @@ import LayoutBasic from '../layouts/LayoutBasic';
 
 import AdminHome from '../pages/Admin';
 import AdminSigIn from '../pages/Admin/SignIn/Signin';
+import AdminUser from '../pages/Admin/Users';
 
 import Home from '../pages/Home';
 import Contact from '../pages/Contact';
@@ -23,6 +24,11 @@ const routes = [
             {
                 path: "/admin/login",
                 component: AdminSigIn,
+                exact: true
+            },
+            { 
+                path: "/admin/users",
+                component: AdminUser,
                 exact: true
             },
             {
